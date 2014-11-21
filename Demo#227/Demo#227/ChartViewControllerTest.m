@@ -33,6 +33,7 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     Name =[[NSArray alloc]initWithObjects:@"Demographics",@"Providers",@"Care Network",@"Insurence Card", nil];
+    ImageArray=[NSArray arrayWithObjects:@"Image1.png",@"Image2.png",@"Image3.png",@"Image4.png",@"Image5.png", nil];
     _tiltle.text=@"PATIENT INFORMATION";
     _gender.text=@"Male";
     _image.image=[UIImage imageNamed:@"29 Settings"];
@@ -73,6 +74,8 @@
      [btnLayer1 setMasksToBounds:YES];
      [btnLayer1 setCornerRadius:10.0f];
     cell.CellLabel.text=[Name objectAtIndex:indexPath.row];
+    cell.celImage.image= [UIImage imageNamed:[ImageArray objectAtIndex:indexPath.row]];
+
     cell.CellButton.hidden=YES;
        cell.accessoryType=UITableViewCellAccessoryDisclosureIndicator;
     /*UITableViewCell *cell = nil;

@@ -11,4 +11,5 @@
 @interface ChartCell : UITableViewCell
 @property (strong, nonatomic)IBOutlet UILabel *CellLabel;
 @property(strong,nonatomic) IBOutlet UIButton *CellButton;
+@property(strong,nonatomic) IBOutlet UIImageView *celImage;
 @end

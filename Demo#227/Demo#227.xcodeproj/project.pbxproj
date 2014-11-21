@@ -27,6 +27,11 @@
 		8AB573BE1A1F0D6D00B1A77A /* ChartViewControllerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AB573BC1A1F0D6D00B1A77A /* ChartViewControllerTest.m */; };
 		8AB573BF1A1F0D6D00B1A77A /* ChartViewControllerTest.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8AB573BD1A1F0D6D00B1A77A /* ChartViewControllerTest.xib */; };
 		8AB573C31A1F23D300B1A77A /* exp.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8AB573C21A1F23D300B1A77A /* exp.jpg */; };
+		8AFED46C1A1F77D3005DCB7C /* Image1.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AFED4671A1F77D2005DCB7C /* Image1.png */; };
+		8AFED46D1A1F77D3005DCB7C /* Image2.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AFED4681A1F77D3005DCB7C /* Image2.png */; };
+		8AFED46E1A1F77D3005DCB7C /* Image3.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AFED4691A1F77D3005DCB7C /* Image3.png */; };
+		8AFED46F1A1F77D3005DCB7C /* Image4.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AFED46A1A1F77D3005DCB7C /* Image4.png */; };
+		8AFED4701A1F77D3005DCB7C /* Image5.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AFED46B1A1F77D3005DCB7C /* Image5.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +71,11 @@
 		8AB573BC1A1F0D6D00B1A77A /* ChartViewControllerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChartViewControllerTest.m; sourceTree = "<group>"; };
 		8AB573BD1A1F0D6D00B1A77A /* ChartViewControllerTest.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChartViewControllerTest.xib; sourceTree = "<group>"; };
 		8AB573C21A1F23D300B1A77A /* exp.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = exp.jpg; sourceTree = "<group>"; };
+		8AFED4671A1F77D2005DCB7C /* Image1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Image1.png; sourceTree = "<group>"; };
+		8AFED4681A1F77D3005DCB7C /* Image2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Image2.png; sourceTree = "<group>"; };
+		8AFED4691A1F77D3005DCB7C /* Image3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Image3.png; sourceTree = "<group>"; };
+		8AFED46A1A1F77D3005DCB7C /* Image4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Image4.png; sourceTree = "<group>"; };
+		8AFED46B1A1F77D3005DCB7C /* Image5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Image5.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +145,11 @@
 				8A7ED8561A1EFDC400FCDDEC /* ChartCell.xib */,
 				8A7ED8521A1EFD7100FCDDEC /* ChartCell.m */,
 				8AB573BB1A1F0D6D00B1A77A /* ChartViewControllerTest.h */,
+				8AFED4671A1F77D2005DCB7C /* Image1.png */,
+				8AFED4681A1F77D3005DCB7C /* Image2.png */,
+				8AFED4691A1F77D3005DCB7C /* Image3.png */,
+				8AFED46A1A1F77D3005DCB7C /* Image4.png */,
+				8AFED46B1A1F77D3005DCB7C /* Image5.png */,
 				8AB573BC1A1F0D6D00B1A77A /* ChartViewControllerTest.m */,
 				8AB573BD1A1F0D6D00B1A77A /* ChartViewControllerTest.xib */,
 				8A7ED8321A1EFD2600FCDDEC /* Images.xcassets */,
@@ -249,7 +264,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8AFED46D1A1F77D3005DCB7C /* Image2.png in Resources */,
+				8AFED4701A1F77D3005DCB7C /* Image5.png in Resources */,
+				8AFED46E1A1F77D3005DCB7C /* Image3.png in Resources */,
 				8A7ED8571A1EFDC400FCDDEC /* ChartCell.xib in Resources */,
+				8AFED46C1A1F77D3005DCB7C /* Image1.png in Resources */,
+				8AFED46F1A1F77D3005DCB7C /* Image4.png in Resources */,
 				8A7ED8331A1EFD2600FCDDEC /* Images.xcassets in Resources */,
 				8A7ED8591A1F064E00FCDDEC /* white_back_iconxhdpi.png in Resources */,
 				8AB573C31A1F23D300B1A77A /* exp.jpg in Resources */,
